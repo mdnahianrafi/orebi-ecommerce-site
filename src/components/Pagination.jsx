@@ -16,6 +16,7 @@ function Items({ currentItems }) {
             name={item.name}
             price={item.price}
             color={item.color}
+            
           />
         ))}
     </div>

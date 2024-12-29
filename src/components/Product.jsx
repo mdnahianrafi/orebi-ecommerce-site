@@ -7,9 +7,9 @@ import {FaHeart, FaShoppingCart} from "react-icons/fa";
 import { TfiReload } from 'react-icons/tfi';
 import { Link } from 'react-router-dom';
 
-const Product = ({imgSrc,name,price,color}) => {
+const Product = ({imgSrc,name,price,color,className}) => {
   return (
-    <div className='relative w-full p-4 mt-2 group opacity-95 hover:opacity-100 md:mr-4 '>
+    <div className={`relative w-[350px] p-4 mt-2 group opacity-95 hover:opacity-100 ${className}`}>
       <Link to='/product-description'><Image imgSrc={imgSrc}/></Link>
       <Badge badgeName="New" className="absolute top-[30px] left-[30px]"/>
 <Link to='/product-description'>
