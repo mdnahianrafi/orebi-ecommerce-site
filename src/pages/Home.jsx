@@ -114,15 +114,15 @@ const Home = () => {
 <Flex className='justify-between'>
             <div className='flex'>
             <Fa2 className='mt-[2px] text-xl font-bold' />
-            <Heading as="h3" text="Two years warranty" className='pl-5 text-base font-dm' />
+            <Heading as="h3" text="Two years warranty" className='pl-5 text-sm md:text-base font-dm' />
             </div>
             <div className='flex'>
             <FaTruck className='mt-1 text-xl font-bold' />
-            <Heading as="h3" text="Free shiping" className='pl-5 text-base font-dm' />
+            <Heading as="h3" text="Free shiping" className='pl-5 text-sm md:text-base font-dm' />
             </div>
             <div className='flex'>
             <TbReload   className='mt-1 text-xl font-bold' />
-            <Heading as="h3" text="30 Days return policy" className='pl-5 text-base font-dm' />
+            <Heading as="h3" text="30 Days return policy" className='pl-5 text-sm md:text-base font-dm' />
             </div>
         </Flex>
 

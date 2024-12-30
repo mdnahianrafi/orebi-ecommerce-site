@@ -92,7 +92,11 @@ const ProductInside = () => {
             for="dropdown"
             className="pt-1 text-xl font-bold pr-28 font-dm"
           >
-            Size:
+                     <Heading
+            as="h3"
+            text="Size:"
+            className="pt-[2px] pr-14 text-xl font-bold font-dm "
+          />
           </label>
           <select
             id="dropdown"

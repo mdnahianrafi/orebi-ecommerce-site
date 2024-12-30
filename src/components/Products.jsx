@@ -53,7 +53,7 @@ function NextArrow(props) {
         alignItems: "center",
         position: "absolute",
         top: "48%",
-       right: "-5%",
+       right: "-3%",
       }}
       onClick={onClick}
     >

@@ -49,3 +49,12 @@
   input[type="checkbox"]:checked::after {
       background-color: gray;
   }
+
+
+  
+  /* @layer Utilities */
+@layer utilities {
+    .popup {
+        clip-path: polygon(7% 15%, 9% 33%, 100% 33%, 100% 100%, 0 100%, 0 35%, 5% 34%);
+  }
+}

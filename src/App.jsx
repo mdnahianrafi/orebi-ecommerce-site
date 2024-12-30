@@ -10,6 +10,8 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import MyAccount from "./pages/MyAccount";
 import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import Error from "./pages/Error";
 
 
 
@@ -29,6 +31,8 @@ function App() {
   <Route path="/signup" element={ <SignUp/> }/>
   <Route path="/my-account" element={ <MyAccount/> }/>
   <Route path="/cart" element={ <Cart/> }/>
+  <Route path="/checkout" element={ <Checkout/> }/>
+  <Route path="/*" element={ <Error/> }/>
 
 
 

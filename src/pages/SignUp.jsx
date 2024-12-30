@@ -258,15 +258,20 @@ const SignUp = () => {
           </div>
         </div>
                 {/* Login Button */}
-                <div className="pb-[51px] md:pb-36  border-b-2 pt-8 md:pt-6 border-b-gray-200 ">
-          <button className="border-[2px] bg-black border-black  text-white hover:bg-transparent hover:text-black hover:ease-in-out duration-300 w-full sm:w-auto block  xl:px-7">
+                <div
+                 className="pb-[51px] md:pb-36  border-b-2 pt-8 md:pt-6 border-b-gray-200 ">
+          <button
+          type="submit"
+          className="border-[2px] bg-black border-black  text-white hover:bg-transparent hover:text-black hover:ease-in-out duration-300 w-full sm:w-auto block  xl:px-7">
             <Heading
               as="h3"
               text="Login"
-              className="px-12 py-5 text-base font-bold sm:text-lg font-dm"
+              className="px-12 py-5 text-base font-bold md:text-lg font-dm"
             />
           </button>
           </div>
+
+
       </Container>
     </>
   );
