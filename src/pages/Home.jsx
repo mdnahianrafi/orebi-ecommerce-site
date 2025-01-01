@@ -113,16 +113,16 @@ const Home = () => {
 <Container>
 <Flex className='justify-between'>
             <div className='flex'>
-            <Fa2 className='mt-[2px] text-xl font-bold' />
-            <Heading as="h3" text="Two years warranty" className='pl-5 text-sm md:text-base font-dm' />
+            <Fa2 className=' font-bold mt-[2px] text-base md:text-xl' />
+            <Heading as="h3" text="Two years warranty" className='pl-2 text-sm md:text-base font-dm md:pl-5' />
             </div>
             <div className='flex'>
-            <FaTruck className='mt-1 text-xl font-bold' />
-            <Heading as="h3" text="Free shiping" className='pl-5 text-sm md:text-base font-dm' />
+            <FaTruck className='mt-1 text-base font-bold md:text-xl' />
+            <Heading as="h3" text="Free shiping" className='pl-2 text-sm md:pl-5 md:text-base font-dm' />
             </div>
-            <div className='flex'>
-            <TbReload   className='mt-1 text-xl font-bold' />
-            <Heading as="h3" text="30 Days return policy" className='pl-5 text-sm md:text-base font-dm' />
+            <div className='flex '>
+            <TbReload   className='mt-1 text-sm font-bold md:text-base' />
+            <Heading as="h3" text="30 Days return policy" className='pl-2 mt-[1px] text-xs md:pl-5 md:text-base font-dm' />
             </div>
         </Flex>
 

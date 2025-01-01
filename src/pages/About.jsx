@@ -14,7 +14,7 @@ const About = () => {
       <Heading
             as="h3"
             text="Home"
-            className="pt-32 pb-8 text-4xl font-bold font-dm"
+            className="pt-32 pb-8 text-2xl font-bold md:text-4xl font-dm"
           />
         <Flex>
           <Heading
@@ -37,7 +37,7 @@ const About = () => {
         <Heading
             as="h3"
             text="Orebi is one of the world’s leading ecommerce brands and is internationally recognized for celebrating the essence of classic Worldwide cool looking style."
-            className="py-32 text-4xl font-dm  leading-[52px]  "
+            className="py-32 text-2xl md:text-4xl font-dm  leading-[52px]  "
           />
 
           <Flex className={'pb-32'}>
@@ -45,36 +45,36 @@ const About = () => {
             <Heading
             as="h3"
             text="Our Vision"
-            className="py-[18px] text-2xl font-dm font-bold leading-[52px]  "
+            className="py-[18px] text-xl md:text-2xl font-dm font-bold leading-[52px]  "
           />
             <Heading
             as="h3"
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an   printer took a galley of type and scrambled it to make a type specimen book."
-            className="text-sm leading-9 font-dm text-menuText"
+            className="text-xs leading-5 md:leading-9 md:text-sm font-dm text-menuText"
           />
             </div>
             <div className="w-1/3 pr-7">
             <Heading
             as="h3"
             text="Our Story"
-            className="py-[18px] text-2xl font-dm font-bold leading-[52px]  "
+            className="py-[18px] text-xl md:text-2xl font-dm font-bold leading-[52px]  "
           />
             <Heading
             as="h3"
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic."
-            className="text-sm leading-9 font-dm text-menuText"
+            className="text-xs leading-5 md:text-sm md:leading-9 font-dm text-menuText"
           />
             </div>
             <div className="w-1/3">
             <Heading
             as="h3"
             text="Our Brands"
-            className="py-[18px] text-2xl font-dm font-bold leading-[52px]  "
+            className="py-[18px] text-xl md:text-2xl md:leading-9  font-dm font-bold leading-[52px]  "
           />
             <Heading
             as="h3"
             text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley."
-            className="text-sm leading-9 font-dm text-menuText"
+            className="text-xs leading-5 md:text-sm font-dm md:leading-9 text-menuText"
           />
             </div>
 

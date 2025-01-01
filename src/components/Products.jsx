@@ -26,8 +26,8 @@ function PrevArrow(props) {
         alignItems: "center",
         position: "absolute",
         zIndex: 20,
-        top: "48%",
-       left: "-5%",
+        top: "47%",
+       left: "-1%",
         
       }}
       onClick={onClick}
@@ -52,8 +52,8 @@ function NextArrow(props) {
         justifyContent: "center",
         alignItems: "center",
         position: "absolute",
-        top: "48%",
-       right: "-3%",
+        top: "47%",
+       right: "-2%",
       }}
       onClick={onClick}
     >
@@ -78,7 +78,7 @@ const Products = ({ productData }) => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
+          
         }
       },
       {
@@ -100,7 +100,7 @@ const Products = ({ productData }) => {
   };
 
   return (
-    <div className="">
+    <div className=" pl-9 md:pl-0">
       <Slider {...settings}>
     
         {productData.map((product, index) => (

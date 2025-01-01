@@ -4,6 +4,7 @@ import Product from "./Product";
 import ProductData from "../../ProductData"; // Import the fixed ProductData
 import { Link } from "react-router-dom";
 
+
 function Items({ currentItems }) {
   return (
     <div className="flex flex-wrap">
@@ -38,7 +39,7 @@ function Pagination({ itemsPerPage }) {
   return (
     <>
       <Items currentItems={currentItems} />
-      <div className="flex justify-between">
+      <div className="flex flex-wrap">
         <ReactPaginate
           breakLabel="..."
           nextLabel="next >"

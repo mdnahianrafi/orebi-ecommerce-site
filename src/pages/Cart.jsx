@@ -31,7 +31,7 @@ const Cart = () => {
           />
         </Flex>
 
-        <Flex className="mt-28 md:mt-[140px] pt-10 md:pt-8  bg-categoryColor justify-between px-32 pb-4">
+        <Flex className="mt-28 md:mt-[140px] pt-10 md:pt-8  bg-categoryColor justify-between px-8 md:px-32 pb-4">
           <Heading
             as="h3"
             text="Product"
@@ -90,7 +90,7 @@ const Cart = () => {
   <div className="flex">
   <select
             id="dropdown"
-            className="border-[1px] font-dm text-menuText pl-5 pr-[60px] py-4 md:pl-2 md:py-2 md:pr-[100px] xl:pr-[172px]"
+            className="border-[1px] font-dm text-menuText pl-1 pr-[60px] py-1 md:pl-2 md:py-2 xl:py-4 md:pr-[100px] xl:pr-[172px]"
           >
             <option value="" disabled selected hidden className="">
               <Heading as='h3' text='SIZE ' className='text-sm md:text-base text-menuText font-dm'/>
@@ -110,25 +110,25 @@ const Cart = () => {
         </div>
 
        <div className="text-right pt-14">
-       <Heading as='h3' text='Cart Totals' className='pt-2 pl-5 text-base font-bold md:text-xl font-dm'/>
+       <Heading as='h3' text='Cart Totals' className='pt-2 pl-5 text-sm font-bold md:text-xl font-dm sm:text-base'/>
        </div>
 <div className="flex justify-end py-7 md:py-[30px]">
 <table >
     <tr>
-      <th className="border-[1px] border-gray-100 pl-3 md:pl-4 py-2 md:py-3  pr-[100px] md:pr-[234px]">
-      <Heading as='h3' text='Subtotal' className='pt-2 pl-5 text-sm font-bold md:text-base font-dm'/> 
+      <th className="border-[1px] border-gray-100 pl-3 md:pl-4 py-2 md:py-3  pr-[50px] md:pr-[234px]">
+      <Heading as='h3' text='Subtotal' className='pt-2 pl-1 text-sm font-bold md:pl-5 md:text-base font-dm'/> 
       </th>
-      <td className="border-[1px] border-gray-100 pl-3 md:pl-4 py-2 md:py-3  pr-[100px] md:pr-[234px]">
-      <Heading as='h3' text='389.00 $' className='pt-2 pl-5 text-sm md:text-base font-dm text-menuText'/> 
+      <td className="border-[1px] border-gray-100 pl-3 md:pl-4 py-2 md:py-3  pr-[50px] md:pr-[234px]">
+      <Heading as='h3' text='389.00 $' className='pt-2 pl-1 text-sm md:pl-5 md:text-base font-dm text-menuText'/> 
       </td>
  
     </tr>
     <tr>
-    <th className="border-[1px] border-gray-100 pl-3 md:pl-4 py-2 md:py-3  pr-[100px] md:pr-[234px]">
+    <th className="border-[1px] border-gray-100 pl-1 md:pl-4 py-2 md:py-3  pr-[50px] md:pr-[234px]">
       <Heading as='h3' text='Total' className='pt-2 pl-5 text-sm font-bold md:text-base font-dm'/> 
       </th>
-    <th className="border-[1px] border-gray-100 pl-3 md:pl-4 py-2 md:py-3  pr-[100px] md:pr-[234px]">
-      <Heading as='h3' text='389.99 $' className='pt-2 pl-5 text-sm md:text-base font-dm'/> 
+    <th className="border-[1px] border-gray-100 pl-1 md:pl-4 py-2 md:py-3  pr-[50px] md:pr-[234px]">
+      <Heading as='h3' text='389.99 $' className='pt-2 pl-1 text-sm md:pl-5 md:text-base font-dm'/> 
       </th>
 
     </tr>
@@ -138,7 +138,7 @@ const Cart = () => {
 </div>
                 {/* Checkout Button */}
 <Link to='/checkout'>
-<div className="pb-[51px] md:pb-36  border-b-2 pt-8 md:pt-6 border-b-gray-200 flex justify-end ">
+<div className="pb-[51px] md:pb-36  border-b-2 pt-8 md:pt-6 border-b-gray-200 flex justify-end  ">
           <button className="border-[2px] bg-black border-black  text-white hover:bg-transparent hover:text-black hover:ease-in-out duration-300 w-full sm:w-auto block  xl:px-7">
             <Heading
               as="h3"

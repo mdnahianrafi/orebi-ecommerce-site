@@ -9,16 +9,16 @@ import { Link } from 'react-router-dom';
 
 const Product = ({imgSrc,name,price,color,className}) => {
   return (
-    <div className={`relative w-[350px] p-4 mt-2 group opacity-95 hover:opacity-100 ${className}`}>
+    <div className={`relative sm:w-[250px] md:w-[250px] xl:w-[350px] p-4 mt-2 group opacity-95 hover:opacity-100 ${className} `}>
       <Link to='/product-description'><Image imgSrc={imgSrc}/></Link>
       <Badge badgeName="New" className="absolute top-[30px] left-[30px]"/>
 <Link to='/product-description'>
 <Flex className={"mt-[30px] mb-[22px] justify-between"}>
-        <Heading as='h3' text={name} className='text-[20px] font-dm font-bold '/>
+        <Heading as='h3' text={name} className='text-sm font-bold md:text-base font-dm '/>
         
         <Heading
           as="h3"
-          className="text-base leading-7 text-productTextColor"
+          className="text-sm leading-7 text-productTextColor"
           text={`${price}`}/>
       </Flex>
 </Link>

@@ -39,7 +39,7 @@ const Checkout = () => {
               <span className="">Click here to enter your code </span>
             </>
           }
-          className="pt-24 md:pt-28 pb-12 text-xs md:text-base font-dm  lg:pr-[645px] xl:pr-[662px]  2xl:pr-[759px]"
+          className="pt-24 md:pt-28 [b-10 md:pb-12 text-sm md:text-base font-dm  lg:pr-[645px] xl:pr-[662px]  2xl:pr-[759px]"
         />
 
         <div>
